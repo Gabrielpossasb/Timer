@@ -1,0 +1,26 @@
+{
+  "files": {
+    "app.js": "/app-timer/static/js/app.899eba63.chunk.js",
+    "app.js.map": "/app-timer/static/js/app.899eba63.chunk.js.map",
+    "runtime~app.js": "/app-timer/static/js/runtime~app.91ee73a0.js",
+    "runtime~app.js.map": "/app-timer/static/js/runtime~app.91ee73a0.js.map",
+    "static/js/2.43b6eadb.chunk.js": "/app-timer/static/js/2.43b6eadb.chunk.js",
+    "static/js/2.43b6eadb.chunk.js.map": "/app-timer/static/js/2.43b6eadb.chunk.js.map",
+    "fonts/Aclonica_400Regular.ttf": "/app-timer/./fonts/Aclonica_400Regular.ttf",
+    "favicon-16.png": "/app-timer/favicon-16.png",
+    "favicon-32.png": "/app-timer/favicon-32.png",
+    "favicon.ico": "/app-timer/favicon.ico",
+    "index.html": "/app-timer/index.html",
+    "manifest.json": "/app-timer/manifest.json",
+    "serve.json": "/app-timer/serve.json",
+    "static/js/2.43b6eadb.chunk.js.LICENSE.txt": "/app-timer/static/js/2.43b6eadb.chunk.js.LICENSE.txt",
+    "static/media/alarme1.mp3": "/app-timer/static/media/alarme1.40c7b201.mp3",
+    "static/media/alarme2.mp3": "/app-timer/static/media/alarme2.f0c9d8c5.mp3",
+    "static/media/alarme3.mp3": "/app-timer/static/media/alarme3.642a259f.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.91ee73a0.js",
+    "static/js/2.43b6eadb.chunk.js",
+    "static/js/app.899eba63.chunk.js"
+  ]
+}
