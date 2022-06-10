@@ -5,7 +5,6 @@ import { StyleSheet, Alert, TextInput, Pressable, TouchableHighlight, Modal, Scr
   Text, View, ImageBackground, TouchableOpacity, Picker, Image } from 'react-native';
 import { useFonts } from 'expo-font';
 import { Aclonica_400Regular} from '@expo-google-fonts/aclonica';
-import AppLoading from 'expo-app-loading';
 import React, {useState, useEffect} from 'react';
 import Contador from './Contador';
 //import { AntDesign } from '@expo/vector-icons';
@@ -37,14 +36,7 @@ export default function App() {
     },
   ]);
 
-  let [fontsLoaded] = useFonts({
-    Aclonica_400Regular,
-  });
-
-  if (!fontsLoaded) {
-    return <AppLoading />;
-  }
-
+ 
   function setarAlarme(id){
     let alarmesTemp = alarmeSound.map(function(val){
       if(id != val.id)  
@@ -178,42 +170,3 @@ const styles = StyleSheet.create({
 });
 
 
-//Anotaçoes
-/*
-<LinearGradient
-  colors={['rgba(201, 42, 114, 1)', 'rgba(232, 126, 25, 0.9)']}
-  style={{
-    position:'absolute',
-    left:0,
-    right:0,
-    top:0,
-    height:'100%',
-  }}
-/>
-
- <Picker 
-          selectedValue={minutos}
-          style={{ height: 50, width: 150 }}
-          onValueChange={(itemValue, itemIndex) => setarMinutos(itemValue)}
-          >
-            <Picker.Item label='0' value='0'/>
-            {
-            numeros.map(function(val){
-              return(<Picker.Item label={val.toString()} value={val.toString()}/>);
-            })
-            }
-   </Picker>
-
-   
-        <Picker 
-          selectedValue={segundos}
-          style={{ height: 50, width: 150 }}
-          onValueChange={(itemValue, itemIndex) => setarSegundos(itemValue)}
-        >
-          {
-          numeros.map(function(val){
-            return(<Picker.Item label={val.toString()} value={val.toString()}/>);
-          })
-          }
-        </Picker>
-*/
